@@ -9,7 +9,11 @@ import SwiftUI
 
 struct NoItemView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Text("Alınacaklar Listeniz Boş.")
+                .font(.system(size: 12))
+                .foregroundColor(.gray)
+        }
     }
 }
 

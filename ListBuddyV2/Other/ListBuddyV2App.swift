@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ListBuddyV2App: App {
+    
+   @StateObject var listViewModel: ListViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ListView()
         }
+        .environmentObject(listViewModel)
     }
 }

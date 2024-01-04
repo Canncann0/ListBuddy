@@ -9,7 +9,17 @@ import SwiftUI
 
 struct FabButton: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Circle()
+                .foregroundColor(Color(red: 0.2823529411764706, green: 0.19215686274509805, blue: 0.8313725490196079))
+            
+            Text(Image(systemName: "plus"))
+                .font(.system(size: 24))
+                .foregroundColor(.white)
+
+        }
+             .frame(height: 48 )
+        
     }
 }
 
