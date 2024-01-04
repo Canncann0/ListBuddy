@@ -10,7 +10,7 @@ import SwiftUI
 struct TopBar: View {
     var body: some View {
         VStack (alignment: .leading, spacing: 16) {
-            Text("Alışveriş Listem")
+            Text("Alışveriş Listem2")
                 .font(.system(size: 24))
                 .frame(maxWidth: .infinity, maxHeight: 44, alignment: .leading )
                 .padding(.leading,16)
